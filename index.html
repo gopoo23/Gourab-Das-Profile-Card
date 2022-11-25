@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Gourab Das | Profile Card</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+      <script src="https://kit.fontawesome.com/a1060ca592.js" crossorigin="anonymous"></script>
+   </head>
+   <body>
+      <div class="container">
+         <div class="wrapper">
+            <a href="#">
+            <img src="./asset/pic01.jpg" alt="pic013">
+            </a>
+            <div class="title">
+               Gourab Das
+            </div>
+            <div class="place">
+               
+               <a style="font-size:20px;"><i class="fa fa-map-marker" style="font-size:22px;"></i>&nbsp; Purulia | West Bengal.</a> 
+            </div>
+
+
+            
+         </div>
+         <div class="content">
+            <p>
+               Web Developer Intern  <br>
+               <a href="https://www.ilogitron.com/" style="font-size:18px; color:red;"><strong>iLogitron Technologies</strong></a>
+            </p>
+            <div class="buttons" >
+               <div class="btn">
+                  <button>Resume<a href="./asset/Gourab Das (4).pdf"><span class="fa-solid fa-download"></span></a>
+                  </button>
+               </div>
+               <div class="btn">
+                  <button>Portfolio <a href="https://gopoo23.github.io/Chit-Chat-with-Gourab/"><span class="fa-solid fa-user"></span></a>
+                  </button>
+               </div>
+            </div>
+         </div>
+         <div class="icons">
+            <li><a href="https://www.linkedin.com/in/gourab-das23/"><span class="fa-brands fa-linkedin"></span></a></li>
+            <li><a href="https://github.com/gopoo23"><span class="fa fa-github"></span></a></li>
+            <li><a href='mailto:gouravdasrrr123@gmail.com'><span class="fa-solid fa-envelope"></span></a></li>
+            <li><a href="tel:+919547110160"><span class="fa-solid fa-phone"></span></a></li>
+            <li><a href="https://leetcode.com/gourabdas/"><span class="fa fa-code"></span></a></li>
+
+         </div>
+      </div>
+      <script>
+         const img = document.querySelector("img");
+         const icons = document.querySelector(".icons");
+         img.onclick = function(){
+           this.classList.toggle("active");
+           icons.classList.toggle("active");
+         }
+      </script>
+   </body>
+</html>
